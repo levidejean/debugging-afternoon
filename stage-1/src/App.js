@@ -14,7 +14,7 @@ class App extends Component {
     this.state = {
       shoppingCart: []
     }
-
+  
     this.addToShoppingCart = this.addToShoppingCart.bind(this);
     this.removeFromShoppingCart = this.removeFromShoppingCart.bind(this);
   }
